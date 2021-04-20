@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:src="@drawable/androidparty"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Aman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday,"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_below="@id/Aman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ben!"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM mAYANK"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
