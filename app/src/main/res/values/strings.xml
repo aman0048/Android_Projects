@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Court Counter</string>
+    <string name="reset">reset</string>
+    <string name="free_throw" tools:ignore="DuplicateDefinition">free throw</string>
+    <string name="_2_points1">+2 points</string>
+    <string name="_3_points1">+3 Points</string>
+    <string name="_01">0</string>
+    <string name="team_b">Team B</string>
+    <string name="free_throw1">free throw</string>
+    <string name="_2_points">+2 points</string>
+    <string name="_3_points">+3 Points</string>
+    <string name="_0">0</string>
+    <string name="team_a">Team A</string>
+</resources>
